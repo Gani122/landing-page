@@ -38,3 +38,58 @@ a {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    padding: 32px 64px;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+    max-width: 460px;
+    gap: 8px;
+}
+
+.hero .right {
+    display: flex;
+    background-color: rgb(116, 119, 131);
+    flex: 0 0 auto;
+    width: 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-img {
+    flex: 0 0 auto;
+}
+
+button {
+    padding: 8px 32px;
+    border-radius: 8px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    align-self: flex-start;
+}
