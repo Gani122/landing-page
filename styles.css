@@ -69,7 +69,7 @@ a {
 
 .main-text {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 900;
     color: #F9FAF8;
 }
 
@@ -92,4 +92,71 @@ button {
     color: white;
     border: none;
     align-self: flex-start;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 100px;
+    gap: 32px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.illus {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info-img{
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    height: 175px;
+    width: 150px;
+}
+
+.text {
+    max-width: 150px;
+    text-align: center;
+    color: gray;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+.q-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px;
+    gap: 16px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.person {
+    align-self: flex-end;
+    color: #1F2937;
+    font-weight: 600;
+    font-size: 24px;
 }
